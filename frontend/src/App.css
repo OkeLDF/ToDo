@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.mx-container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width:1024px) {
+    .mx-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    .mx-container {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
